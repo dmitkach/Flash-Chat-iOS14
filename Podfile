@@ -7,5 +7,8 @@ target 'Flash Chat' do
 
   # Pods for Flash Chat
   pod 'CLTypingLabel'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Analytics'
 
 end

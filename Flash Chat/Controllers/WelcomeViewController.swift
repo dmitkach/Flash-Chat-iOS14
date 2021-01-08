@@ -19,5 +19,11 @@ class WelcomeViewController: UIViewController {
        
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        titleLabel.text = "⚡️FlashChat"
+    }
+    
 
 }
